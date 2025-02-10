@@ -2,7 +2,7 @@
 *Department of Animal and Plant Sciences, University of Sheffield*
 
 # Aligning Illumina RNA-seq data
-#### Alison Wright, Nicola Nadeau
+#### Nicola Nadeau
 
 The aim of this practical is to learn how to align Illumina RNA-seq data to a reference genome and assemble transcripts. We will be using a dataset of expression data of multiple individuals of *Heliconius melpomene*.
 
