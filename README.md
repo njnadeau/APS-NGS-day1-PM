@@ -239,7 +239,7 @@ We can view read alignments to the reference genome with [IGV](http://software.b
 	
 	        Hmel2.fa
 		
-* Now you need to download the appropriate [IGV](http://software.broadinstitute.org/software/igv/) viewer onto your desktop. Download [here](http://software.broadinstitute.org/software/igv/download)
+* Now you need to install the appropriate [IGV](http://software.broadinstitute.org/software/igv/) viewer onto your desktop. If you are working on a managed desktop you should do this from the Software Centre. If working on your own computer download [here](http://software.broadinstitute.org/software/igv/download)
                 
 * Load the reference genome into IGV
 	
