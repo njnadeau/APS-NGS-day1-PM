@@ -274,7 +274,19 @@ How many reads mapped?
         
 Next, you might also want to identify reads with high quality alignments. This may be because you want to extract a set of reads for downstream analyses. This information is encoded in the BAM/SAM file as [flags](https://samtools.github.io/hts-specs/SAMv1.pdf). The following table gives an overview of the mandatory fields in the SAM format:
 
-![alt text](https://github.com/alielw/APS-NGS-day1-PM/blob/master/SAM%20fields.jpg)
+| Col | Field | Type | Brief description |
+| --- | ----- | ---- | ----------------- |
+| 1 | QNAME | String | Query template NAME |
+| 2 | FLAG | Int | bitwise FLAG |
+| 3 |  RNAME | String | References sequence NAME |
+| 4 | POS | Int | 1- based leftmost mapping POSition |
+| 5 | MAPQ | Int | MAPping Quality |
+| 6 | CIGAR | String | CIGAR string |
+| 7 | RNEXT | String | Ref. name of the mate/next read |
+| 8 | PNEXT | Int | Position of the mate/next read |
+| 9 | TLEN | Int | observed Template LENgth |
+| 10 |	SEQ | String | segment SEQuence |
+| 11 |	QUAL | String | ASCII of Phred-scaled base QUALity+33 |
 
 The fields that will be most useful are the FLAGS and MAPQ. The Broad Institute have a useful website to understand the [FLAGS](https://broadinstitute.github.io/picard/explain-flags.html). In addition, the MAPQ field indicates the mapping quality of the read.
 
