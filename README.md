@@ -189,7 +189,7 @@ hisat2 \
        
 * Check the job status of both scripts. Once they have finished, let's check they ran properly.
 
-e.g when HISAT2_60A.sh has finished there should be a files slurm-XXXXXxx.out in the /fastdata/$USER/1.align/HISAT2/60A. Look at these files with `cat` or `less`. In the slurm-XXXXXxx.out you should see stats on the mapping and the % of reads aligned at the end. **If you do not see this, something has gone wrong and you should fix it before moving on**.
+e.g when HISAT2_60A.sh has finished there should be a file called slurm-XXXXXxx.out in the /fastdata/$USER/1.align/HISAT2/60A. Look at these files with `cat` or `less`. In the slurm-XXXXXxx.out you should see stats on the mapping and the % of reads aligned at the end. **If you do not see this, something has gone wrong and you should fix it before moving on**.
 
 --
 
